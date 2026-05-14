@@ -2500,9 +2500,13 @@ const auth = getAuth(app);
 
 window.googleLogin = async function(){
 
+try{
+
 const provider = new GoogleAuthProvider();
 
-try{
+provider.setCustomParameters({
+prompt: "select_account"
+});
 
 const result = await signInWithPopup(auth, provider);
 
@@ -2520,12 +2524,15 @@ document.getElementById('authModal').style.display='none';
 
 }catch(error){
 
+console.log(error);
+
+if(error.code !== 'auth/popup-closed-by-user'){
 alert(error.message);
-
 }
 
 }
 
+}
 window.logout = async function(){
 
 await signOut(auth);
