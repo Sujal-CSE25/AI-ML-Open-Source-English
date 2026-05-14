@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>MLVerse — AI & Open Source Complete Course</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Times+New+Roman:wght@400;600;700;800&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
 :root{
   --bg:#08090e;
@@ -44,9 +44,9 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--txt);min-
   width:34px;height:34px;border-radius:10px;
   background:linear-gradient(135deg,var(--a1),var(--a2));
   display:flex;align-items:center;justify-content:center;
-  font-family:'Syne',sans-serif;font-weight:800;font-size:16px;color:#fff;
+  font-family:'Times New Roman',sans-serif;font-weight:800;font-size:16px;color:#fff;
 }
-.logo-text{font-family:'Syne',sans-serif;font-weight:800;font-size:18px;
+.logo-text{font-family:'Times New Roman',sans-serif;font-weight:800;font-size:18px;
   background:linear-gradient(90deg,#fff,var(--a1h));-webkit-background-clip:text;-webkit-text-fill-color:transparent;}
 .top-right{display:flex;align-items:center;gap:12px;}
 .progress-pill{
@@ -112,7 +112,7 @@ transform:translateY(-2px) scale(1.03);
 .week-label{
   display:flex;align-items:center;justify-content:space-between;
   padding:10px 16px;cursor:pointer;
-  font-family:'Syne',sans-serif;font-size:11px;font-weight:700;
+  font-family:'Times New Roman',sans-serif;font-size:11px;font-weight:700;
   text-transform:uppercase;letter-spacing:1.5px;color:var(--muted);
   user-select:none;transition:color .2s;border-radius:6px;margin:0 6px;
 }
@@ -161,7 +161,9 @@ transform:translateY(-2px) scale(1.03);
 
 /* ─── WELCOME SCREEN ─── */
 .welcome{
-  padding:60px 50px;max-width:900px;
+padding:50px 60px;
+max-width:1200px;
+width:100%;
 }
 .welcome-badge{
   display:inline-flex;align-items:center;gap:6px;
@@ -169,13 +171,22 @@ transform:translateY(-2px) scale(1.03);
   border-radius:20px;padding:6px 16px;font-size:12px;
   color:var(--a1h);font-weight:600;margin-bottom:24px;
 }
+
+
 .welcome h1{
-  font-family:'Syne',sans-serif;font-size:clamp(2rem,4vw,3.2rem);
-  font-weight:800;line-height:1.15;margin-bottom:16px;
+font-family:'Times New Roman',sans-serif;
+font-size:clamp(2rem,4vw,4.3rem);
+font-weight:800;
+line-height:1.15;
+margin-bottom:20px;
+max-width:1100px;
+letter-spacing:-1px;
+color:#f5f5f5;
 }
 .welcome h1 span{
-  background:linear-gradient(90deg,var(--a1h),var(--a2));
-  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
+background:linear-gradient(90deg,var(--a1h),var(--a2));
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
 }
 .welcome p{color:var(--muted2);font-size:16px;line-height:1.8;max-width:600px;margin-bottom:36px;}
 .week-cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:16px;margin-bottom:40px;}
@@ -185,7 +196,7 @@ transform:translateY(-2px) scale(1.03);
 }
 .wcard:hover{transform:translateY(-3px);border-color:var(--a1);box-shadow:0 8px 30px rgba(108,99,255,.15);}
 .wcard-ico{font-size:28px;margin-bottom:10px;}
-.wcard h3{font-family:'Syne',sans-serif;font-size:14px;font-weight:700;margin-bottom:6px;}
+.wcard h3{font-family:'Times New Roman',sans-serif;font-size:14px;font-weight:700;margin-bottom:6px;}
 .wcard p{font-size:12px;color:var(--muted);line-height:1.5;}
 .wcard .wcard-count{
   display:inline-block;margin-top:10px;font-size:11px;font-weight:600;
@@ -200,7 +211,7 @@ transform:translateY(-2px) scale(1.03);
   background:var(--card);border:1px solid var(--border2);border-radius:12px;
   padding:16px 22px;flex:1;min-width:130px;
 }
-.stat-box .num{font-family:'Syne',sans-serif;font-size:26px;font-weight:800;color:var(--a1h);}
+.stat-box .num{font-family:"Times New Roman",sans-serif;font-size:26px;font-weight:800;color:var(--a1h);}
 .stat-box .lbl{font-size:12px;color:var(--muted);margin-top:2px;}
 
 /* ─── LESSON VIEW ─── */
@@ -217,7 +228,7 @@ transform:translateY(-2px) scale(1.03);
 .tag-w3{background:rgba(255,107,107,.15);color:var(--a3);}
 .tag-w4{background:rgba(255,217,61,.13);color:var(--a4);}
 .lesson-title{
-  font-family:'Syne',sans-serif;
+  font-family:'Times New Roman',sans-serif;
 font-size:clamp(2.2rem,5vw,4rem);
 font-weight:800;
 line-height:1.3;
@@ -235,7 +246,7 @@ word-break:normal;
 /* ─── CONTENT BLOCKS ─── */
 .block{margin-bottom:28px;}
 .block-title{
-  font-family:'Syne',sans-serif;font-size:13px;font-weight:700;
+  font-family:'Times New Roman',sans-serif;font-size:13px;font-weight:700;
   text-transform:uppercase;letter-spacing:1.5px;color:var(--a1h);
   margin-bottom:14px;display:flex;align-items:center;gap:8px;
 }
@@ -279,7 +290,7 @@ word-break:normal;
   background:rgba(255,107,107,.07);border:1px solid rgba(255,107,107,.18);
   border-radius:12px;padding:16px 20px;margin:14px 0;
 }
-.def-box .def-term{font-family:'Syne',sans-serif;font-size:14px;font-weight:700;color:var(--a3);margin-bottom:6px;}
+.def-box .def-term{font-family:'Times New Roman',sans-serif;font-size:14px;font-weight:700;color:var(--a3);margin-bottom:6px;}
 .def-box p{color:#f0c0c0;font-size:13.5px;line-height:1.7;margin:0;}
 
 /* KEY POINTS */
@@ -298,7 +309,7 @@ word-break:normal;
 
 /* TABLE */
 .data-table{width:100%;border-collapse:collapse;font-size:13.5px;border-radius:12px;overflow:hidden;}
-.data-table th{background:var(--a1);color:#fff;padding:12px 16px;text-align:left;font-family:'Syne',sans-serif;font-weight:700;font-size:12px;}
+.data-table th{background:var(--a1);color:#fff;padding:12px 16px;text-align:left;font-family:'Times New Roman',sans-serif;font-weight:700;font-size:12px;}
 .data-table.green th{background:#0d6b58;}
 .data-table.red th{background:#6b1f1f;}
 .data-table.yellow th{background:#5a4800;}
@@ -314,7 +325,7 @@ word-break:normal;
 }
 .tool-card:hover{border-color:var(--a1);}
 .tc-icon{font-size:26px;margin-bottom:10px;}
-.tc-name{font-family:'Syne',sans-serif;font-size:14px;font-weight:700;margin-bottom:7px;}
+.tc-name{font-family:'Times New Roman',sans-serif;font-size:14px;font-weight:700;margin-bottom:7px;}
 .tc-desc{font-size:12.5px;color:var(--muted);line-height:1.6;}
 .tc-desc ul{padding-left:14px;margin-top:6px;}
 .tc-desc li{margin-bottom:3px;}
@@ -342,7 +353,7 @@ word-break:normal;
   display:flex;align-items:center;justify-content:space-between;
   margin-bottom:20px;flex-wrap:wrap;gap:12px;
 }
-.mcq-header h3{font-family:'Syne',sans-serif;font-size:16px;font-weight:700;}
+.mcq-header h3{font-family:'Times New Roman',sans-serif;font-size:16px;font-weight:700;}
 .mcq-score-badge{
   background:var(--card2);border:1px solid var(--border2);border-radius:8px;
   padding:6px 14px;font-size:12px;color:var(--muted2);
@@ -357,7 +368,7 @@ word-break:normal;
 .mcq-num{
   display:inline-block;background:var(--a1);color:#fff;
   font-size:11px;font-weight:700;padding:3px 11px;border-radius:12px;
-  margin-bottom:12px;font-family:'Syne',sans-serif;
+  margin-bottom:12px;font-family:'Times New Roman',sans-serif;
 }
 .mcq-q{font-size:15px;font-weight:500;line-height:1.65;margin-bottom:18px;color:var(--txt);}
 .mcq-q .exam-tag{
@@ -380,7 +391,7 @@ word-break:normal;
   min-width:24px;height:24px;border-radius:6px;background:var(--border2);
   display:flex;align-items:center;justify-content:center;
   font-size:11px;font-weight:700;flex-shrink:0;margin-top:1px;
-  font-family:'Syne',sans-serif;
+  font-family:'Times New Roman',sans-serif;
 }
 .opt-btn.correct{background:rgba(0,212,170,.1);border-color:var(--a2);color:#a0ece0;}
 .opt-btn.correct .opt-letter{background:var(--a2);color:#000;}
@@ -391,7 +402,7 @@ word-break:normal;
 .mcq-footer{display:flex;align-items:center;justify-content:space-between;margin-top:16px;flex-wrap:wrap;gap:10px;}
 .reveal-btn{
   background:transparent;border:1px solid var(--a1);color:var(--a1h);
-  font-family:'Syne',sans-serif;font-size:12px;font-weight:700;
+  font-family:'Times New Roman',sans-serif;font-size:12px;font-weight:700;
   padding:8px 18px;border-radius:8px;cursor:pointer;transition:all .18s;
   letter-spacing:.5px;
 }
@@ -416,14 +427,14 @@ word-break:normal;
   display:flex;align-items:center;gap:16px;flex-wrap:wrap;
 }
 .test-banner-icon{font-size:36px;}
-.test-banner h3{font-family:'Syne',sans-serif;font-size:18px;font-weight:800;}
+.test-banner h3{font-family:'Times New Roman',sans-serif;font-size:18px;font-weight:800;}
 .test-banner p{color:var(--muted2);font-size:13px;margin-top:3px;}
 .test-result{
   background:var(--card2);border:1px solid var(--border2);border-radius:12px;
   padding:20px;margin-top:24px;text-align:center;display:none;
 }
 .test-result.show{display:block;}
-.result-score{font-family:'Syne',sans-serif;font-size:40px;font-weight:800;color:var(--a4);}
+.result-score{font-family:'Times New Roman',sans-serif;font-size:40px;font-weight:800;color:var(--a4);}
 .result-label{color:var(--muted2);font-size:14px;margin-top:4px;}
 .result-msg{margin-top:12px;font-size:15px;color:var(--muted2);}
 
@@ -443,7 +454,7 @@ word-break:normal;
 .nav-next:hover{background:var(--a1h);}
 .mark-done-btn{
   background:transparent;border:1px solid var(--a2);color:var(--a2);
-  font-family:'Syne',sans-serif;font-size:12px;font-weight:700;
+  font-family:'Times New Roman',sans-serif;font-size:12px;font-weight:700;
   padding:8px 16px;border-radius:8px;cursor:pointer;transition:all .18s;
 }
 .mark-done-btn:hover{background:var(--a2);color:#000;}
@@ -460,6 +471,72 @@ word-break:normal;
 /* MOBILE OVERLAY */
 .overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:199;}
 .overlay.show{display:block;}
+
+/* AUTH MODAL */
+.auth-modal{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:rgba(0,0,0,.7);
+display:none;
+justify-content:center;
+align-items:center;
+z-index:9999;
+backdrop-filter:blur(6px);
+}
+
+.auth-box{
+background:var(--card);
+padding:35px;
+border-radius:24px;
+width:380px;
+border:1px solid var(--border2);
+box-shadow:0 20px 60px rgba(0,0,0,.5);
+position:relative;
+}
+
+.auth-box h2{
+font-family:'Times New Roman',sans-serif;
+margin-bottom:10px;
+}
+
+.auth-box p{
+color:var(--muted2);
+margin-bottom:20px;
+}
+
+.auth-box input{
+width:100%;
+padding:14px;
+margin-top:12px;
+background:var(--card2);
+border:1px solid var(--border2);
+color:white;
+border-radius:12px;
+outline:none;
+}
+
+.auth-submit{
+width:100%;
+margin-top:18px;
+padding:14px;
+border:none;
+border-radius:12px;
+background:linear-gradient(135deg,var(--a1),var(--a2));
+color:white;
+font-weight:700;
+cursor:pointer;
+}
+
+.auth-close{
+position:absolute;
+right:18px;
+top:15px;
+cursor:pointer;
+font-size:20px;
+}
 
 /* ─── RESPONSIVE ─── */
 @media(max-width:768px){
@@ -730,7 +807,7 @@ function mcq(num, question, opts, correctIdx, explanation, tag=''){
 function getWelcomeHTML(){
   return `<div class="welcome">
     <div class="welcome-badge">⚡ SWAYAM · NPTEL · NITTTR Chandigarh</div>
-    <h1>Master <span>AI & Open Source</span><br>from Zero to Exam-Ready</h1>
+     <h1><span>AI & Open Source</span><br>Complete Exam Preparation Guide</h1>
     <p>A complete structured course based on the SWAYAM curriculum by M. Dutta & M. Sood. 
     38 focused topics, 100+ practice MCQs, interactive quizzes — everything you need to ace your exam.</p>
     <div class="week-cards">
@@ -2305,7 +2382,15 @@ ${mcq(10,'Which is an ACCEPTABLE use of AI in academic research writing?',
 // ═══════════════════════════════════════════════════════
 // INIT
 // ═══════════════════════════════════════════════════════
-document.addEventListener('DOMContentLoaded',()=>{
+document.addEventListener('DOMContentLoaded',()=>
+{
+    function openAuth(){
+document.getElementById('authModal').style.display='flex';
+}
+
+function closeAuth(){
+document.getElementById('authModal').style.display='none';
+}
 updateProgress();
 showWelcome();
 });
@@ -2335,6 +2420,23 @@ document.getElementById('authModal').style.display='none';
 <div class="auth-switch">
 Already have an account? <span>Login</span>
 </div>
+
+</div>
+</div>
+<!-- AUTH MODAL -->
+<div class="auth-modal" id="authModal">
+<div class="auth-box">
+
+<div class="auth-close" onclick="closeAuth()">✕</div>
+
+<h2>Welcome to MLVerse</h2>
+<p>Login or create your account</p>
+
+<input type="text" placeholder="Full Name">
+<input type="email" placeholder="Email Address">
+<input type="password" placeholder="Password">
+
+<button class="auth-submit">Continue</button>
 
 </div>
 </div>
